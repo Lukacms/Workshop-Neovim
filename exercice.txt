@@ -1,0 +1,85 @@
+
+Pour vous aider vous avez à votre disposition :Tutor
+
+Touche pratique :
+
+[Normal Mode]
+h = curseur à gauche
+j = curseur en bas
+k = curseur en haut
+l = curseur à droite
+d = delete
+y = yank
+p = paste
+w = va à la fin du mot sur lequel ton curseur est
+b = va au début du mot sur lequel ton curseur est
+$ = va à la fin de la ligne
+i = passe en mode insertion à l'endroit du curseur
+I = passe en mode insertion au début de la ligne
+o = passe en mode insertion avec une nouvelle ligne
+a = passe en mode insertion à la lettre après le curseur
+A = passe en mode insertion à la fin de la ligne
+v = passer en mode visual
+: = passer en mode command
+/ = recherche quelque chose (il faut cliquer sur b et n pour aller au mot selectionner)
+
+[insertion Mode]
+jk (à la suite) = quitte le mode insertion
+echap = quitte le mode insertion
+
+[Command Mode]
+:a = sauvegarde
+:q = quitte nvim (sans sauvegarde !!)
+:q! = force quitte nvim
+:wa = sauvegarde tout les fichiers
+:s = search
+:noh = enlever les highlights
+
+[visual Mode]
+toute les touches de déplacement du Normal Mode
+:s = search
+:s/{Mot à rechercher (ou phrase)}/{à remplacer}/{rien = remplace uniquement la première ittérations | g = remplacer toute les ittérations sur la ligne}
+
+
+Exercice :
+    (Il faut suivre le chemin avec son curseur sans utiliser la souris ni les flèches) (indice il faut utiliser hjkl)
+
+    #
+    #  #####
+    ####   #
+           #   #########
+           #####       #
+                       #
+   fin: ######### ### ##
+                ### ###
+
+Exercice :
+    (Il faut supprimer la 3eme ligne uniquement de ce texte avec 2 touches de clavier) (indice il faut utilise la touche d)
+
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of
+    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Exercice :
+    (Il faut copier la ligne puis la coller en 3 touches de clavier) (indice il faut utiliser la touche y et p)
+
+    Je suis une ligne de code
+
+
+Exercice :
+    (Il faut supprimer les 3 mots "bonjour tout le" en 3 touches de clavier) (indice )
+
+    Hello, bonjour tout le monde je suis donc je pense
+
+Exercice :
+    (Il faut remplacer tout les mots "printf" par le mot "oui")
+
+    The  functions in the printf() family produce output according to a format as described below.  The functions printf() and vprintf() write output to stdout, the standard out‐
+    put stream; fprintf() and vfprintf() write output to the given output stream; sprintf(), snprintf(), vsprintf(), and vsnprintf() write to the character string str.
+    The function dprintf() is the same as fprintf() except that it outputs to a file descriptor, fd, instead of to a stdio(3) stream.
+    The functions snprintf() and vsnprintf() write at most size bytes (including the terminating null byte ('\0')) to str.
+

@@ -43,7 +43,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath) -- install lazy on your laptop if not installed
 
--- require configuration files²
+-- require configuration files
 require("options")
 require("mappings")
 require("settings")
