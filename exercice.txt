@@ -40,6 +40,8 @@ echap = quitte le mode insertion
 :q = quitte nvim (sans sauvegarde !!)
 :q! = force quitte nvim
 :wa = sauvegarde tout les fichiers
+:x = sauvegarde et quitte la fenêtre
+:xa = sauvegarde et quitte toute les fenêtres
 :noh = enlever les highlights
 :s = search
 :s/{Mot à rechercher (ou phrase)}/{à remplacer}/{rien = remplace uniquement la première ittérations | g = remplacer toute les ittérations sur la ligne}
