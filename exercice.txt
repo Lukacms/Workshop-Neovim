@@ -31,7 +31,8 @@ a = passe en mode insertion à la lettre après le curseur
 A = passe en mode insertion à la fin de la ligne
 v = passer en mode visual
 : = passer en mode command
-/ = recherche quelque chose (il faut cliquer sur b et n pour aller au mot selectionné)
+/ = recherche quelque chose (il faut cliquer sur N et n pour aller au mot selectionné)
+(N = vers le haut, n vers le bas)
 
 [insertion Mode]
 jk (à la suite) = quitte le mode insertion
@@ -45,8 +46,8 @@ echap = quitte le mode insertion
 :x = sauvegarde et quitte la fenêtre
 :xa = sauvegarde et quitte toute les fenêtres
 :noh = enlever les highlights
+    :s/{Mot à rechercher (ou phrase)}/{à remplacer}/{rien = remplace uniquement la première ittérations | g = remplacer toute les ittérations sur la ligne}
 :s = search
-:s/{Mot à rechercher (ou phrase)}/{à remplacer}/{rien = remplace uniquement la première ittérations | g = remplacer toute les ittérations sur la ligne}
 
 [visual Mode]
 toute les touches de déplacement du Normal Mode
