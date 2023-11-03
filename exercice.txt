@@ -1,4 +1,3 @@
-
 Pour vous aider vous avez à votre disposition :Tutor
 
 Touche pratique :
@@ -8,9 +7,18 @@ h = curseur à gauche
 j = curseur en bas
 k = curseur en haut
 l = curseur à droite
+gg = va tout en haut de ton fichier
+G = va tout en bas de ton fichier
 d = delete
+dd = delete la ligne qui est sur ton curseur
+d{X}d = delete X ligne à partir de ton curseur
 y = yank
+yy = copie la ligne qui est sur ton curseur
+y{X}y = copie X ligne qui est sur ton curseur
 p = paste
+x = supprime le charactere sur lequel ton curseur est
+r = remplace le charactere sur lequel ton curseur est (par celui que tu veux)
+R = te permet de remplacer des characteres jusqu'a ce que tu press jk ou echap
 w = va à la fin du mot sur lequel ton curseur est
 b = va au début du mot sur lequel ton curseur est
 $ = va à la fin de la ligne
@@ -21,7 +29,7 @@ a = passe en mode insertion à la lettre après le curseur
 A = passe en mode insertion à la fin de la ligne
 v = passer en mode visual
 : = passer en mode command
-/ = recherche quelque chose (il faut cliquer sur b et n pour aller au mot selectionner)
+/ = recherche quelque chose (il faut cliquer sur b et n pour aller au mot selectionné)
 
 [insertion Mode]
 jk (à la suite) = quitte le mode insertion
@@ -32,8 +40,9 @@ echap = quitte le mode insertion
 :q = quitte nvim (sans sauvegarde !!)
 :q! = force quitte nvim
 :wa = sauvegarde tout les fichiers
-:s = search
 :noh = enlever les highlights
+:s = search
+:s/{Mot à rechercher (ou phrase)}/{à remplacer}/{rien = remplace uniquement la première ittérations | g = remplacer toute les ittérations sur la ligne}
 
 [visual Mode]
 toute les touches de déplacement du Normal Mode
@@ -43,8 +52,7 @@ toute les touches de déplacement du Normal Mode
 
 Exercice :
     (Il faut suivre le chemin avec son curseur sans utiliser la souris ni les flèches) (indice il faut utiliser hjkl)
-
-    #
+#####
     #  #####
     ####   #
            #   #########
