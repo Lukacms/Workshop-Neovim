@@ -36,7 +36,7 @@ jk (à la suite) = quitte le mode insertion
 echap = quitte le mode insertion
 
 [Command Mode]
-:a = sauvegarde
+:w = sauvegarde
 :q = quitte nvim (sans sauvegarde !!)
 :q! = force quitte nvim
 :wa = sauvegarde tout les fichiers
